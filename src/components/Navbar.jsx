@@ -39,7 +39,7 @@ const Navbar = () => {
 
         {/* Menu Mobile */}
       {open && (
-        <div className="absolute top-16 left-0 w-full bg-white text-[#1D4985] shadow-md p-6 flex flex-col space-y-4 md:hidden">
+        <div className="absolute z-30 top-16 left-0 w-full bg-[#FBF6F0] text-[#1D4985] shadow-md p-6 flex flex-col space-y-4 md:hidden">
           <a href="#" onClick={closeNavbar}>Benefícios</a>
           <a href="#" onClick={closeNavbar}>Depoimentos</a>
           <a href="#" onClick={closeNavbar}>Sobre nós</a>
