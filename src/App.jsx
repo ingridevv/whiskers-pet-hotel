@@ -6,7 +6,7 @@ import Testimonials from './components/Testimonials';
 import About from "./components/About";
 import Journey from "./components/Journey";
 import Club from "./components/Club";
-import Newsletter from "./components/Newsletter";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -18,7 +18,7 @@ const App = () => {
     <About />
     <Journey />
     <Club />
-    <Newsletter />
+    <Footer />
     </>
   )
 }
