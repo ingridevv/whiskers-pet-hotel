@@ -7,11 +7,17 @@ import yorkshireDog from "../assets/yorkshire-dog.webp";
 function Benefits() {
   const Card = ({ icon, title, description }) => {
     return (
-      <div className="group p-6 bg-white rounded-2xl shadow flex flex-col items-center text-center w-full sm:w-80
-                    hover:bg-[#1D4985] transition-colors duration-600">
+      <div
+        className="group p-6 bg-white rounded-2xl shadow flex flex-col items-center text-center w-full sm:w-80
+                    hover:bg-[#1D4985] transition-colors duration-200"
+      >
         {icon && <img src={icon} alt={title} className="w-16 h-16 mb-4" />}
-        <h4 className="font-semibold text-lg mb-2 text-gray-900 group-hover:text-white transition-colors duration-600">{title}</h4>
-        <p className="text-gray-700 group-hover:text-white text-sm transition-colors duration-600">{description}</p>
+        <h4 className="font-semibold text-lg mb-2 text-gray-900 group-hover:text-white transition-colors duration-200">
+          {title}
+        </h4>
+        <p className="text-gray-700 group-hover:text-white text-sm transition-colors duration-200">
+          {description}
+        </p>
       </div>
     );
   };
@@ -67,12 +73,11 @@ function Benefits() {
         ))}
       </div>
 
-      <img 
+      <img
         src={yorkshireDog}
-        alt="Yorkshire dog playing with a ball" 
+        alt="Yorkshire dog playing with a ball"
         className="absolute top-40 sm:top-60 right-5 sm:right-12 w-20 sm:w-32 md:w-80 md:top-10 md:right-0 z-1"
       />
-
     </section>
   );
 }
