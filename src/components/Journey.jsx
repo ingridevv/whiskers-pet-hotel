@@ -57,8 +57,8 @@ function Journey() {
         </div>
         
       </div>
-      <div className="flex flex-col justify-center items-center">
-      <button className="text-sm font-bold sm:text-base px-5 py-4 sm:py-5 bg-[#FF9928] text-white rounded-3xl hover:bg-[#fa9017] transition">
+      <div className="flex flex-col justify-center items-center mb-40">
+      <button className="text-sm font-bold sm:text-base px-5 py-5 sm:py-5 bg-[#FF9928] text-white rounded-3xl hover:bg-[#fa9017] transition">
         Faça uma reserva
       </button>
       </div>
