@@ -1,12 +1,12 @@
 import React from 'react';
-import cat from "../assets/grey-cat.webp";
-import dog from "../assets/basenji-dog.webp";
-import starTopLeft from "../assets/star-top-left.webp";
-import starBottomLeft from "../assets/star-bottom-left.webp";
-import starRight from "../assets/star-right.webp";
-import portraitLeft from "../assets/portrait-left.webp";
-import portraitBottom from "../assets/portrait-bottom.webp";
-import portraitRight from "../assets/portrait-right.webp";
+import cat from "../assets/hero/grey-cat.webp";
+import dog from "../assets/hero/basenji-dog.webp";
+import starTopLeft from "../assets/hero/star-top-left.webp";
+import starBottomLeft from "../assets/hero/star-bottom-left.webp";
+import starRight from "../assets/hero/star-right.webp";
+import portraitLeft from "../assets/hero/portrait-left.webp";
+import portraitBottom from "../assets/hero/portrait-bottom.webp";
+import portraitRight from "../assets/hero/portrait-right.webp";
 
 const decorations = [
   {

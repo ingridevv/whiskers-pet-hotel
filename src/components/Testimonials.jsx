@@ -4,11 +4,10 @@ import pugDog from "../assets/testimonials/pug-dog.webp";
 import siberianCat from "../assets/testimonials/siberian-cat.webp";
 import claraMendes from "../assets/testimonials/clara-mendes-testi.webp";
 import starsCollection from "../assets/testimonials/stars-collection.svg";
-import Divider from "../assets/testimonials/divider-testi.svg";
 
 function Testimonials() {
   return (
-    <section className="w-full px-10 py-20 pb-40 bg-[#FBF6F0] relative flex flex-col">
+    <section className="w-full px-10 py-20 pb-40 bg-[#F4EADE] relative flex flex-col">
       {/* Main Content */}
       <div className="flex-1 flex flex-col items-center justify-center px-6 z-10 text-center mb-10">
         <h3

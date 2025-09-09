@@ -1,8 +1,8 @@
 import React from "react";
-import benefitIcon1 from "../assets/benefit-icon-1.svg";
-import benefitIcon2 from "../assets/benefit-icon-2.svg";
-import benefitIcon3 from "../assets/benefit-icon-3.svg";
-import yorkshireDog from "../assets/yorkshire-dog.webp";
+import benefitIcon1 from "../assets/benefits/benefit-icon-1.svg";
+import benefitIcon2 from "../assets/benefits/benefit-icon-2.svg";
+import benefitIcon3 from "../assets/benefits/benefit-icon-3.svg";
+import yorkshireDog from "../assets/benefits/yorkshire-dog.webp";
 
 function Benefits() {
   const Card = ({ icon, title, description }) => {
