@@ -9,6 +9,7 @@ import Club from "./components/Club";
 import Footer from "./components/Footer";
 import Cta from "./components/Cta";
 import Faq from "./components/Faq";
+import Pricing from "./components/Pricing";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
     <About />
     <Journey />
     <Club />
+    <Pricing />
     <Faq />
     <Cta />
     <Footer />
