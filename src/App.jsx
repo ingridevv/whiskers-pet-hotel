@@ -7,6 +7,8 @@ import About from "./components/About";
 import Journey from "./components/Journey";
 import Club from "./components/Club";
 import Footer from "./components/Footer";
+import Cta from "./components/Cta";
+import Faq from "./components/Faq";
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
     <About />
     <Journey />
     <Club />
+    <Faq />
+    <Cta />
     <Footer />
     </>
   )
