@@ -1,8 +1,8 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Benefits from './components/Benefits';
-import Testimonials from './components/Testimonials';
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Benefits from "./components/Benefits";
+import Testimonials from "./components/Testimonials";
 import About from "./components/About";
 import Journey from "./components/Journey";
 import Club from "./components/Club";
@@ -14,19 +14,30 @@ import Pricing from "./components/Pricing";
 const App = () => {
   return (
     <>
-    <Navbar />
-    <Hero />
-    <Benefits />
-    <Testimonials />
-    <About />
-    <Journey />
-    <Club />
-    <Pricing />
-    <Faq />
-    <Cta />
-    <Footer />
+      <Navbar />
+      <Hero />
+      <section id="beneficios" name="beneficios">
+        <Benefits />
+      </section>
+      <section id="depoimentos" name="depoimentos">
+        <Testimonials />
+      </section>
+      <section id="sobre" name="sobre">
+        <About />
+      </section>
+      <Journey />
+
+      <section id="whiskers-club" name="planos">
+        <Club />
+      </section>
+      <Pricing />
+      <section id="faq" name="faq">
+        <Faq />
+      </section>
+      <Cta />
+      <Footer />
     </>
-  )
-}
+  );
+};
 
 export default App;
