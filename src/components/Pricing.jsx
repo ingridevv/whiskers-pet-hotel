@@ -77,8 +77,8 @@ function Pricing() {
       </div>
 
       {/* Pricing Cards */}
-      <div className="grid grid-cols-3 py-30 items-end">
-        <div className="flex flex-col items-center">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 py-20 items-end">
+        <div className="flex flex-col items-center w-full order-2 md:order-1">
           <PricingCard
             label="Pet Confort"
             price="149"
@@ -93,7 +93,7 @@ function Pricing() {
         </div>
 
         {/* Middle card */}
-        <div className="relative flex flex-col items-center scale-[1.12] z-10 py-10">
+        <div className="relative flex flex-col items-center scale-[1.12] z-10 py-10 w-full order-1 md:order-2">
           <Promotion title="Economize" discount="15%" />
           <PricingCard
             label="Plano VIPets"
@@ -110,7 +110,7 @@ function Pricing() {
         </div>
 
         {/* Right card */}
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center w-full order-3 md:order-3">
           <PricingCard
             label="Pet Premium"
             price="249"
