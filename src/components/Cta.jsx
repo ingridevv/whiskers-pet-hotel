@@ -3,9 +3,9 @@ import petsDoubts from "../assets/cta/pets-doubts.webp";
 
 function Cta() {
   return (
-    <section className="bg-[#FFE08B] grid grid-cols-2 gap-30">
-      <div className="m-20">
-        <div>
+    <section className="bg-[#FFE08B] grid grid-col-1 md:grid-cols-2 gap-30">
+      <div className="m-10 md:m-20">
+        <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-2">
           <h3
             className="text-[#161C2D] font-bold text-4xl"
             style={{ fontFamily: "Bricolage Grotesque, sans-serif" }}
