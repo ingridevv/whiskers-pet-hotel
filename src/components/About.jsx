@@ -35,9 +35,8 @@ function About() {
             <p className="mt-4 text-lg/8 md:text-sm/6 text-white md:whitespace-pre-line max-w-md sm:max-w-2xl mx-auto md:mx-0">
               {`A Whiskers surge com um propósito especial: cuidar do seu pet com
             carinho, segurança e atenção, oferecendo momentos de alegria e
-            conforto enquanto ele está conosco. Sabemos que deixar quem você ama
-            em boas mãos é uma decisão importante, e queremos que você se sinta
-            tranquilo e confiante ao confiar seu amigo de quatro patas. 
+            conforto enquanto ele está conosco. Sabemos que deixar quem você ama em boas mãos é uma decisão importante, 
+            e queremos que você se sinta tranquilo e confiante ao confiar seu amigo de quatro patas. 
           
             Aqui na Whiskers, cada detalhe do nosso espaço é pensado para
             proporcionar conforto, diversão e bem-estar. Desde ambientes limpos

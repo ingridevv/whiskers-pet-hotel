@@ -31,15 +31,15 @@ function Benefits() {
     },
     {
       icon: benefitIcon2,
-      title: "Proteção e tranquilidade",
+      title: "Cuidado Individualizado",
       description:
-        "Ambiente seguro e higienizado, com monitoramento constante e equipe treinada. Seu pet fica protegido e você fica tranquilo.",
+        " Cada pet recebe carinho, alimentação adequada e acompanhamento personalizado, incluindo necessidades especiais ou pós-cirurgia.",
     },
     {
       icon: benefitIcon3,
-      title: "Proteção e tranquilidade",
+      title: "Comodidade",
       description:
-        "Ambiente seguro e higienizado, com monitoramento constante e equipe treinada. Seu pet fica protegido e você fica tranquilo.",
+        " Planos mensais, agendamento simples e prioridade em reservas, garantindo conforto para você e para o seu amigo.",
     },
   ];
 
