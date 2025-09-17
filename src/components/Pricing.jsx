@@ -60,7 +60,7 @@ function Pricing() {
   }
 
   return (
-    <section className="m-20">
+    <section className="mt-20 md:m-20">
       <div>
         <h3
           className="text-[#1D4985] font-bold text-4xl text-center"
@@ -93,7 +93,7 @@ function Pricing() {
         </div>
 
         {/* Middle card */}
-        <div className="relative flex flex-col items-center scale-[1.12] z-10 py-10 w-full order-1 md:order-2">
+        <div className="relative flex flex-col items-center scale-[1.10] z-10 py-10 w-full order-1 md:order-2">
           <Promotion title="Economize" discount="15%" />
           <PricingCard
             label="Plano VIPets"

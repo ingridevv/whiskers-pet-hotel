@@ -69,20 +69,20 @@ const Navbar = () => {
       </div>
 
       {/* Menu Mobile */}
-      {open && (
+            {open && (
         <div className="absolute z-30 top-16 left-0 w-full bg-[#FBF6F0] text-[#1D4985] shadow-md p-6 flex flex-col space-y-4 md:hidden">
-          <a href="#" onClick={closeNavbar}>
+          <Link to="beneficios" smooth={true} duration={500} onClick={closeNavbar}>
             Benefícios
-          </a>
-          <a href="#" onClick={closeNavbar}>
+          </Link>
+          <Link to="depoimentos" smooth={true} duration={500} onClick={closeNavbar}>
             Depoimentos
-          </a>
-          <a href="#" onClick={closeNavbar}>
+          </Link>
+          <Link to="sobre" smooth={true} duration={500} onClick={closeNavbar}>
             Sobre nós
-          </a>
-          <a href="#" onClick={closeNavbar}>
+          </Link>
+          <Link to="whiskers-club" smooth={true} duration={500} onClick={closeNavbar}>
             Whiskers Club
-          </a>
+          </Link>
           <button className="px-4 py-2 bg-[#FF9928] text-white rounded-xl hover:bg-[#fa9017]">
             Contate-nos
           </button>

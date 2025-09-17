@@ -2,6 +2,7 @@ import React from "react";
 import whiskersGallery from "../assets/about/whiskers-gallery.webp";
 import vectorDivider from "../assets/about/vector-divider.svg";
 import dividerTop from "../assets/about/divider-top.svg";
+import petHeart from "../assets/about/pet-heart.svg";
 
 function About() {
   return (
@@ -12,13 +13,23 @@ function About() {
         className="absolute m-auto top-0 z-[1] w-full"
       />
 
-      <div className="mt-10 md:mt-40 md:mx-70">
-        <h3
-          className="text-white font-bold text-5xl text-center md:text-left"
-          style={{ fontFamily: "Bricolage Grotesque, sans-serif" }}
-        >
-          Sobre Nós
-        </h3>
+      <div className="flex flex-col items-center md:items-start justify-center md:justify-start gap-2 relative mt-10 md:mt-40 md:mx-70">
+        <div className="flex items-center justify-center md:justify-start gap-2">
+            <div className="flex md:items-center md:justify-start gap-2">
+              <h3
+                className="text-white font-bold text-5xl text-center md:text-left"
+                style={{ fontFamily: "Bricolage Grotesque, sans-serif" }}
+              >
+                Sobre Nós
+              </h3>
+              <img
+                src={petHeart}
+                alt="heart"
+                className="hidden md:block w-8 h-8 md:w-10 md:h-10 translate-y-[-6px]"
+              />
+          </div>
+        </div>
+
         <div className="grid gap-10 md:grid-cols-[3fr_2fr] ">
           <div className=" p-4 md:py-2 text-center md:text-left sm:flex sm:flex-col sm:justify-center">
             <p className="mt-4 text-lg/8 md:text-sm/6 text-white md:whitespace-pre-line max-w-md sm:max-w-2xl mx-auto md:mx-0">

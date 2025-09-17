@@ -90,7 +90,7 @@ function Faq() {
       </div>
 
       <div className="flex justify-center mt-6 sm:mt-12">
-        <button className="text-sm sm:text-base font-bold px-6 py-3 sm:px-8 sm:py-4 bg-[#FF9928] text-white rounded-3xl hover:bg-[#fa9017] transition">
+        <button className="text-lg sm:text-base font-bold px-6 py-3 sm:px-8 sm:py-4 bg-[#FF9928] text-white rounded-3xl hover:bg-[#fa9017] transition">
           Confira Mais Perguntas
         </button>
       </div>

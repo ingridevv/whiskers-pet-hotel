@@ -3,7 +3,7 @@ import Logo from "../assets/navbar/logo.svg";
 
 function Newsletter() {
   return (
-    <section className="bg-[#FBF6F0] flex flex-col items-center text-center px-6 py-12">
+    <section className="bg-[#FBF6F0] flex flex-col items-center text-center px-6 py-12 m-5">
       {/* Logo */}
       <img src={Logo} alt="Whiskers Logo" className="mb-4 w-32 sm:w-40" />
 
