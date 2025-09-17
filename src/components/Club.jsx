@@ -50,7 +50,7 @@ function Club() {
   return (
     <>
       {/* Club Section */}
-      <section className="relative bg-[#1D4985] overflow-hidden">
+      <section className="relative bg-[#1D4985] overflow-hidden px-20">
         {/* Curved divider at the top */}
         <img
           src={vectorTop}
@@ -61,14 +61,14 @@ function Club() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 items-center pt-10 md:pt-16">
           <div className="flex flex-col justify-center items-center md:items-start min-h-[300px] md:min-h-screen px-4 md:px-10">
             <div className="flex flex-col items-center mt-10 md:items-start text-center md:text-left space-y-4">
-              <img src={WhiskersClub} alt="whiskers club logo" className="w-48 md:w-[500px] h-auto"/>
+              <img src={WhiskersClub} alt="whiskers club logo" className="w-full md:w-[500px] h-auto"/>
               <h3
                 className="text-white font-bold text-2xl md:text-4xl mt-5"
                 style={{ fontFamily: "Bricolage Grotesque, sans-serif" }}
               >
                 Assine e economize no hotelzinho do seu pet
               </h3>
-              <p className="max-w-md md:max-w-2xl text-white opacity-70 text-sm md:text-base">
+              <p className="max-w-md md:max-w-4xl text-white opacity-70 text-sm md:text-base">
                 Garanta até 15% de desconto na hospedagem com nosso plano de
                 assinatura. Você escolhe a frequência, nós cuidamos do resto — 
                 conforto e tranquilidade para você e seu melhor amigo.

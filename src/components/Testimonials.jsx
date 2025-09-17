@@ -7,7 +7,7 @@ import starsCollection from "../assets/testimonials/stars-collection.svg";
 
 function Testimonials() {
   return (
-    <section className="w-full px-10 py-40 pb-60 bg-[#F4EADE] relative flex flex-col">
+    <section className="w-full px-10 py-40 pt-20 pb-10 md:pb-60 bg-[#F4EADE] relative flex flex-col">
       {/* Main Content */}
       <div className="flex-1 flex flex-col items-center justify-center px-6 z-10 text-center mb-10">
         <h3
@@ -17,13 +17,13 @@ function Testimonials() {
           <img
             src={starsCollection}
             alt="bright yellow star"
-            className="absolute top-40 sm:top-60 right-5 sm:right-12 w-20 sm:w-32 md:w-10 md:top-20 md:right-120 z-5"
+            className="hidden md:block absolute top-40 sm:top-60 right-5 sm:right-12 w-20 sm:w-32 md:w-10 md:top-20 md:right-120 z-5"
           />
           Histórias que Encantam
           <img
             src={starsCollection}
             alt="bright yellow star"
-            className="absolute top-40 sm:top-60 right-5 sm:right-12 w-20 sm:w-32 md:w-10 md:top-20 md:left-120 z-5"
+            className="hidden md:block absolute top-40 sm:top-60 right-5 sm:right-12 w-20 sm:w-32 md:w-10 md:top-20 md:left-120 z-5"
           />
         </h3>
         <p className="text-center max-w-xl mx-auto mt-4 text-[#161C2D] opacity-70">
@@ -32,7 +32,7 @@ function Testimonials() {
         </p>
       </div>
 
-      <div className="w-full sm:w-3/4 md:w-[750px] mb-10 bg-white rounded-2xl shadow-lg flex flex-col items-center text-center p-10 py-10 mx-auto space-y-4 z-5">
+      <div className="w-full sm:w-3/4 md:w-[750px] mb-1 bg-white rounded-2xl shadow-lg flex flex-col items-center text-center p-10 py-10 mx-auto space-y-4 z-5">
         <div className="flex flex-col items-center space-y-2">
           <img
             src={claraMendes}
