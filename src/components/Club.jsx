@@ -60,7 +60,7 @@ function Club() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 items-center pt-10 md:pt-16">
           <div className="flex flex-col justify-center items-center md:items-start min-h-[300px] md:min-h-screen px-4 md:px-10">
-            <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-4">
+            <div className="flex flex-col items-center mt-10 md:items-start text-center md:text-left space-y-4">
               <img src={WhiskersClub} alt="whiskers club logo" className="w-48 md:w-[500px] h-auto"/>
               <h3
                 className="text-white font-bold text-2xl md:text-4xl mt-5"
@@ -89,12 +89,12 @@ function Club() {
         <img
           src={Polygon}
           alt=""
-          className="absolute left-0 bottom-0 w-24 md:w-40 lg:w-60 z-10 pointer-events-none"
+          className="absolute left-0 bottom-0 top-25 w-132 md:w-40 lg:w-60 z-10 pointer-events-none"
         />
       </section>
 
       {/* Club Benefits Section */}
-      <section className="relative flex flex-col justify-center items-center px-4 md:p-20 bg-[#E2F5FF]">
+      <section className="relative flex flex-col justify-center items-cente p-10 md:px-4 md:p-20 bg-[#E2F5FF]">
         <div>
           <h3
             className="text-[#2C2D2D] font-bold text-2xl md:text-4xl text-center"
