@@ -2,7 +2,7 @@
 
 ![Banner](src/assets/cover.png)
 
-**Whiskers** é a experiência digital definitiva para o universo pet, projetada para conectar, engajar e converter. Cada elemento do site foi pensado para transformar visitantes curiosos em leads qualificados e clientes fiéis, usando design estratégico, automação inteligente e UX inspirada em dados reais.
+**Whiskers** é a experiência digital definitiva para o universo pet, projetada para conectar, engajar e converter. Cada elemento do site foi pensado para transformar visitantes em leads qualificados e clientes fiéis, com design estratégico, automação inteligente e UX inspirada em dados reais.
 
 ## 💡 Proposta de Valor
 - **Transformar a jornada do cliente** com UX intuitiva e responsiva
