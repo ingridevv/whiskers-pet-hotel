@@ -5,14 +5,22 @@ function Faq() {
   const Question = ({ icon, question, answer }) => {
     return (
       <div
-        className="group p-6 bg-white rounded-2xl shadow flex flex-col
+        className="group p-4 sm:p-6 bg-white rounded-2xl shadow flex flex-col
                    hover:bg-[#1D4985] transition duration-200"
       >
-        <h4 className="items-center flex flex-row gap-5 font-semibold text-lg text-[#1D4985] group-hover:text-white">
-          {icon && <img src={icon} alt={question} className="w-8 h-16 mb-4" />}
+        <h4 className="flex flex-row items-center gap-3 sm:gap-5 font-semibold text-base sm:text-lg text-[#1D4985] group-hover:text-white">
+          {icon && (
+            <img
+              src={icon}
+              alt={question}
+              className="w-6 h-6 sm:w-8 sm:h-8"
+            />
+          )}
           {question}
         </h4>
-        <p className="text-[#2C2D2D] opacity-65 group-hover:text-white text-sm">{answer}</p>
+        <p className="mt-2 text-[#2C2D2D] opacity-65 group-hover:text-white text-sm sm:text-base leading-relaxed">
+          {answer}
+        </p>
       </div>
     );
   };
@@ -57,16 +65,16 @@ function Faq() {
   ];
 
   return (
-    <section className="bg-[#FBF6F0] m-20">
+    <section className="bg-[#FBF6F0] px-4 sm:px-8 py-12 sm:py-20">
       <div>
         <h3
-          className="text-[#1D4985] font-bold text-4xl text-center"
+          className="text-[#1D4985] font-bold text-2xl sm:text-4xl text-center"
           style={{ fontFamily: "Bricolage Grotesque, sans-serif" }}
         >
           Perguntas Frequentes
         </h3>
-        <div className="flex items-center justify-center py-2 max-w-4xl mx-auto">
-          <p className="text-center max-w-2xl mx-auto mt-4 text-[#161C2D] opacity-70">
+        <div className="flex items-center justify-center py-2 max-w-3xl mx-auto">
+          <p className="text-center mt-4 text-[#161C2D] opacity-70 text-sm sm:text-base px-2">
             Nossa seção de FAQ responde às dúvidas mais comuns sobre nossos
             planos de hospedagem, serviços e como funciona a assinatura do seu
             pet.
@@ -75,14 +83,14 @@ function Faq() {
       </div>
 
       {/* Question Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 my-10 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-10 my-8 sm:my-12 max-w-6xl mx-auto">
         {questions.map((q, index) => (
           <Question key={index} {...q} />
         ))}
       </div>
 
-      <div className="flex flex-col items-center m-20">
-        <button className="text-sm font-bold sm:text-base px-5 py-5 sm:py-5 bg-[#FF9928] text-white rounded-3xl hover:bg-[#fa9017] transition">
+      <div className="flex justify-center mt-6 sm:mt-12">
+        <button className="text-sm sm:text-base font-bold px-6 py-3 sm:px-8 sm:py-4 bg-[#FF9928] text-white rounded-3xl hover:bg-[#fa9017] transition">
           Confira Mais Perguntas
         </button>
       </div>

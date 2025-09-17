@@ -81,7 +81,7 @@ const Navbar = () => {
             Sobre nós
           </a>
           <a href="#" onClick={closeNavbar}>
-            Planos
+            Whiskers Club
           </a>
           <button className="px-4 py-2 bg-[#FF9928] text-white rounded-xl hover:bg-[#fa9017]">
             Contate-nos

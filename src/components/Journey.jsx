@@ -4,7 +4,7 @@ import imageLeft from "../assets/journey/img-left.webp";
 
 function Journey() {
   return (
-    <section className="w-full px-6 md:px-20 py-20 bg-[#FBF6F0] flex flex-col">
+    <section className="w-full px-6 md:px-40 py-20 bg-[#FBF6F0] flex flex-col">
       <div className="mb-16 text-center">
         <h3
           className="text-[#1D4985] font-bold text-4xl"
@@ -36,14 +36,22 @@ function Journey() {
           </p>
         </div>
         <div className="order-1 md:order-2 flex justify-center md:justify-end">
-          <img src={imageRight} alt="woman with a cat" className="w-full max-w-sm rounded-lg" />
+          <img
+            src={imageRight}
+            alt="woman with a cat"
+            className="w-full max-w-sm rounded-lg"
+          />
         </div>
       </div>
 
       {/* Second Section */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center mb-20">
         <div className="order-1 md:order-1 flex justify-center md:justify-start">
-          <img src={imageLeft} alt="dog licking lips" className="w-full max-w-sm rounded-lg" />
+          <img
+            src={imageLeft}
+            alt="dog licking lips"
+            className="w-full max-w-sm rounded-lg"
+          />
         </div>
         <div className="order-2 md:order-2 text-center md:text-left">
           <h3
@@ -63,8 +71,8 @@ function Journey() {
 
       {/* CTA */}
       <div className="flex justify-center mt-10">
-        <button className="text-sm sm:text-base px-8 py-4 bg-[#FF9928] text-white rounded-3xl hover:bg-[#fa9017] transition">
-          Faça uma reserva
+        <button className="md:text-xl sm:text-base px-8 py-4 bg-[#FF9928] text-white rounded-3xl hover:bg-[#fa9017] transition">
+          <a href="#">Faça uma reserva</a>
         </button>
       </div>
     </section>

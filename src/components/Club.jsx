@@ -81,7 +81,7 @@ function Club() {
           <img
             src={clubHero}
             alt="cool dog with glasses"
-            className="w-full max-w-xs md:max-w-full mb-[-40px] md:mb-[-100px]"
+            className="w-full max-w-xs md:max-w-full mb-[-40px] md:mb-[-200px]"
           />
         </div>
 
@@ -89,7 +89,7 @@ function Club() {
         <img
           src={Polygon}
           alt=""
-          className="absolute left-0 bottom-0 top-25 w-132 md:w-40 lg:w-60 z-10 pointer-events-none"
+          className="absolute left-0 bottom-0 top-25 w-132 md:w-40 lg:w-full z-10 pointer-events-none"
         />
       </section>
 

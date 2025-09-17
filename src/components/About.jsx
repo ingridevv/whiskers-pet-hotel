@@ -20,8 +20,8 @@ function About() {
           Sobre Nós
         </h3>
         <div className="grid gap-10 md:grid-cols-[3fr_2fr] ">
-          <div className="py-2 text-center md:text-left sm:flex sm:flex-col sm:justify-center">
-            <p className="mt-4 text-sm/6 text-white whitespace-pre-line max-w-md sm:max-w-2xl mx-auto md:mx-0">
+          <div className=" p-4 md:py-2 text-center md:text-left sm:flex sm:flex-col sm:justify-center">
+            <p className="mt-4 text-lg/8 md:text-sm/6 text-white md:whitespace-pre-line max-w-md sm:max-w-2xl mx-auto md:mx-0">
               {`A Whiskers surge com um propósito especial: cuidar do seu pet com
             carinho, segurança e atenção, oferecendo momentos de alegria e
             conforto enquanto ele está conosco. Sabemos que deixar quem você ama
@@ -36,8 +36,7 @@ function About() {
             brincadeiras e atenção individualizada. 
           
             Nossa missão é que cada visita seja uma experiência feliz e acolhedora, 
-            para que você possa sair e voltar com a certeza de que seu companheiro está 
-            em boas mãos. 
+            para que você possa sair e voltar com a certeza de que seu companheiro está em boas mãos. 
           
             Na Whiskers, tratamos cada pet como se fosse parte da nossa
             família. 💛`}
@@ -55,7 +54,7 @@ function About() {
       <img
         src={vectorDivider}
         alt="vector line dividing sections"
-        className="absolute m-auto top-200 z-[1] w-full"
+        className="absolute m-auto top-350 md:top-200 z-[1] w-full"
       />
     </section>
   );

@@ -7,7 +7,7 @@ import starsCollection from "../assets/testimonials/stars-collection.svg";
 
 function Testimonials() {
   return (
-    <section className="w-full px-10 py-20 pb-40 bg-[#F4EADE] relative flex flex-col">
+    <section className="w-full px-10 py-40 pb-60 bg-[#F4EADE] relative flex flex-col">
       {/* Main Content */}
       <div className="flex-1 flex flex-col items-center justify-center px-6 z-10 text-center mb-10">
         <h3
@@ -32,7 +32,7 @@ function Testimonials() {
         </p>
       </div>
 
-      <div className="w-full sm:w-3/4 md:w-[780px] bg-white rounded-2xl shadow-lg flex flex-col items-center text-center p-10 py-10 mx-auto space-y-4 z-5">
+      <div className="w-full sm:w-3/4 md:w-[750px] mb-10 bg-white rounded-2xl shadow-lg flex flex-col items-center text-center p-10 py-10 mx-auto space-y-4 z-5">
         <div className="flex flex-col items-center space-y-2">
           <img
             src={claraMendes}
@@ -57,19 +57,18 @@ function Testimonials() {
       <img
         src={siberianCat}
         alt="beautiful siberian cat looking up"
-        className="absolute top-40 sm:top-60 right-5 sm:right-12 w-20 sm:w-32 md:w-150 md:top-10 md:left-0 z-1"
+        className="hidden md:block absolute top-40 sm:top-60 right-5 sm:right-12 w-20 sm:w-32 md:w-150 md:top-10 md:left-0 z-1"
       />
       <img
         src={pugDog}
         alt="cute pug dog licking lips"
-        className="absolute top-40 sm:top-60 right-5 sm:right-12 w-20 sm:w-32 md:w-120 md:top-10 md:right-0 z-1"
+        className="hidden md:block absolute top-40 sm:top-60 right-5 sm:right-12 w-20 sm:w-32 md:w-120 md:top-10 md:right-0 z-1"
       />
       <img
         src={photoFrames}
         alt="collection of pet owners portraits"
-        className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-20 sm:w-32 md:w-[800px] mt-20"
+        className="hidden md:block z-10 absolute bottom-0 left-1/2 transform -translate-x-1/2 sm:w-32 w-20 md:w-[1000px] mt-40"
       />
-      {/* <img src={Divider} alt="beige divider" className="absolute bottom-0 left-0 w-full z-10" /> */}
     </section>
   );
 }
